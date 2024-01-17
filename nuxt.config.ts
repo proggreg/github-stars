@@ -1,6 +1,7 @@
 const myCustomLightTheme = {
   dark: false,
   colors: {
+    background: '#FFFFFF',
     primary: '#0000F0'
   }
 }
@@ -33,17 +34,10 @@ export default defineNuxtConfig({
     }
   },
 
-  imports: {
-    autoImport: true,
-    dirs: ['./stores']
-  },
-
-  pinia: {
-    autoImports: ['defineStore', 'acceptHMRUpdate']
-  },
   vuetify: {
     vuetifyOptions: {
       theme: {
+        defaultTheme: 'myCustomLightTheme',
         themes: {
           myCustomDarkTheme,
           myCustomLightTheme
