@@ -1,7 +1,7 @@
 const myCustomLightTheme = {
   dark: false,
   colors: {
-    background: '#FFFFFF',
+    background: '#c4c4c4',
     primary: '#0000F0'
   }
 }
