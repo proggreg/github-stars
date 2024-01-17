@@ -107,6 +107,7 @@ function removeLanguage () {
       <v-chip
         v-if="currentLanguage"
         style="margin-left: 15px;"
+        append-icon="mdi-close"
         @click="removeLanguage"
       >
         {{ currentLanguage }}
