@@ -1,7 +1,7 @@
 const myCustomLightTheme = {
   dark: false,
   colors: {
-    primary: '#0000FF'
+    primary: '#0000F0'
   }
 }
 const myCustomDarkTheme = {
@@ -14,10 +14,8 @@ const myCustomDarkTheme = {
 export default defineNuxtConfig({
   modules: [
     '@invictus.codes/nuxt-vuetify',
-    '@pinia/nuxt',
     '@nuxt/devtools',
-    '@vueuse/nuxt',
-    'nuxt-mongoose'
+    '@vueuse/nuxt'
   ],
 
   experimental: {
