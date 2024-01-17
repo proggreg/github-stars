@@ -54,8 +54,8 @@ const { data, refresh } = await useFetch(url, {
     language
   },
   onRequest ({ request, options }) {
-    // eslint-disable-next-line no-console
-    console.debug(request, options)
+
+    // console.debug(request, options)
   }
 
 })
