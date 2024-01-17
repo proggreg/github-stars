@@ -123,7 +123,7 @@ function removeLanguage () {
       sm="6"
       md="4"
     >
-      <v-card :title="repo.name">
+      <v-card :title="repo.name" rounded="lg">
         <v-card-text class="line-clamp">
           {{ repo.description }}
         </v-card-text>
