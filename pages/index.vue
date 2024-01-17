@@ -106,6 +106,7 @@ function removeLanguage () {
 
       <v-chip
         v-if="currentLanguage"
+        style="margin-left: 15px;"
         @click="removeLanguage"
       >
         {{ currentLanguage }}
