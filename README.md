@@ -1,12 +1,5 @@
-# Nuxt Example
-
-Deploy your [Nuxt](https://nuxt.com) project to Vercel with zero configuration.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/nuxtjs&template=nuxtjs)
-
-_Live Example: https://nuxtjs-template.vercel.app_
-
-Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+# Github Stars 
+## Empowers you to delve into the world's most popular open-source projects hosted on GitHub. Discover cutting-edge technologies, innovative solutions, and widely used libraries by leveraging the collective wisdom of the developer community.
 
 ## Setup
 
